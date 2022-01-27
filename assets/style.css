@@ -1,34 +1,55 @@
-root{
-    --grey:grey;
-    --blue:blue;
-    --black:black;
-    
-}
-
 Nav{
     display:flex;
     justify-content: flex-end;
-    background-color: var(--grey);
-    color: var(--black);
+    margin-right: 10px;
+    background-color: gray;
+    color: orange;
 }
 
+
+body{
+    background-color: orange;
+    color: black;
+}
+
+header{
+    background-color: orange;
+    color: black;
+}
 h1{
     display:flex;
     justify-content: center;
 }
 
-h2{
+h2{ 
+    margin: -20px;
+    margin-left: 71px;
+    display:black;
+    justify-content: center;
     font-size: large;
-    background-color: var(--blue);
-    color: var(--grey);
+    background-color: orange;
+    color: black;
+}
+
+h3{
+    color:orange;
+}
+a {
+    justify-content:left
 }
 
 p {
-   Background-color: var(--grey);
-   color: var(--black);
+   Background-color: orange;
+   color: black;
    font-size:20px;
 }
 ul{
-    display:flex;
+    display:block;
+    justify-content: space-evenly;
+}
+li{
+    display: block;
+}
+footer, li{
     justify-content: space-evenly;
 }
