@@ -1,0 +1,34 @@
+root{
+    --grey:grey;
+    --blue:blue;
+    --black:black;
+    
+}
+
+Nav{
+    display:flex;
+    justify-content: flex-end;
+    background-color: var(--grey);
+    color: var(--black);
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: large;
+    background-color: var(--blue);
+    color: var(--grey);
+}
+
+p {
+   Background-color: var(--grey);
+   color: var(--black);
+   font-size:20px;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+}
